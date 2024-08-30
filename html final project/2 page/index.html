@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Замовлення</title>
+</head>
+<body>
+    <div>
+        <div class="menu">
+            <img id="main_icon" src="/img/menu img/icon_menu.png" alt=""><img onclick="location='127.0.0.1:5500/index1.html'"id="basket_icon" src="/img/menu img/basket_icon.png" alt="">
+        </div>
+        <div class="order">
+            
+            <div class="input_fields">
+                <h3>1 Дані Клієнта</h3>
+                <hr>
+                <input type="text" name="first name">
+                <p>Ім'я</p>
+               
+                <input type="text" name="middle name">
+                <p>По батькові</p>
+                
+                <input type="text" name="last name">
+                <p>Прізвище</p>
+                
+                <input type="text" name="street">
+                <p>Вулиця</p>
+                
+                <input type="text" name="house_number">
+                <p>№ Будинка</p>
+                
+                <input type="number" name="flat_number">
+                <p>№ Квартири</p>
+                
+                <input type="number" name="postal_code">
+                <p>Поштовий Індекс</p>
+                
+                <input type="text" name="region">
+                <p>Область</p>
+                
+                <input type="text" name="city">
+                <p>Місто/село</p>
+                
+                <input type="number" name="phone_number">
+                <p>Телефон</p>
+                
+                <input type="email" name="email">
+                <p>Email</p>
+
+            </div>
+            <div class="delivery_and_payment_div">
+                <div class="delivery">
+                    <h3>2 Доставка</h3>
+                    <hr>
+                    <p>Відділеня нова пошта</p>
+                    <div class="nova_poshta">
+                        <input type="radio" name="delivery_company">
+                        <img src="/img/delivery img/Nova_Poshta_logo.png" alt="">
+                    </div>
+                    <p>Кур'єр Meest</p>
+                    <div class="meest">
+                        <input type="radio" name="delivery_company">
+                        <img src="/img/delivery img/Meest_icon.webp" alt="">
+                    </div>
+                </div>
+                <div class="payment">
+                    <h3>3 Спосіб Оплати</h3>
+                    <hr>
+                    <p>Оплата карткою</p>
+                    <p class="info">Visa, Master Card, Google Pay, Apple Pay, PayPal</p>
+                    <div class="by_card">
+                        <input type="radio" name="payment">
+                        <img src="/img/payment img/free-icon-credit-card-3405481.png" alt="">
+                    </div>
+                    <p>Оплата готівкою</p>
+                    <div class="by_cash">
+                        <input type="radio" name="payment">
+                        <img src="/img/payment img/free-icon-money-1570905.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button onclick="location.href='http://127.0.0.1:5500/3%20page/index.html'">Замовити</button>
+    </div>
+</body>
+
+</html>

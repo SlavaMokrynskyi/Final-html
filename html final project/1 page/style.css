@@ -1,0 +1,145 @@
+@media (max-height:650px){
+    .main{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .basket_window{
+        width: 55%;
+        padding: 2%;
+        margin: 1%;
+    }
+    .basket_window img{
+        width: 200px;
+        height: 200px;
+    }
+    .product{
+        display: flex;
+        flex-direction: row;
+    }
+    .product_info{
+        padding: 5%;
+    }
+    .receipt{
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        padding: 2%;
+        margin: 1%;
+    }
+    .receipt_info{
+        padding: 5%;
+    }
+    .receipt button{
+        width: 100%;
+        padding: 3%;
+        background: #000;
+        color: #f5f5f5;
+        margin-top: 10%;
+        border: 0px;
+    }
+}
+@media (min-height:651px){
+    .main{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .basket_window{
+        width: 95%;
+        padding: 2%;
+        margin: 1%;
+    }
+    .basket_window img{
+        width: 400px;
+        height: 400px; 
+    }
+    .product{
+        display: flex;
+        flex-direction: column;
+    }
+    .product_image_div{
+        text-align: center;
+    }
+    .receipt{
+        display: flex;
+        flex-direction: column;
+        padding: 2%;
+        margin: 1%;
+    }
+    .receipt button{
+        width: 100%;
+        padding: 2%;
+        background: #000;
+        color: #f5f5f5;
+        border: 0px;
+    }
+}
+@media (min-width:2000px){
+    .receipt button{
+        width: 100%;
+        padding: 1%;
+        background: #000;
+        color: #f5f5f5;
+        border: 0px;
+    }
+}
+body{
+    margin: 0;
+    background-color: #f5f5f5;
+}
+*{
+    font-family:'Days';
+}
+.menu{
+    background-color: #111111;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+#main_icon{
+    height: 100px;
+    padding-left: 30px;
+}
+#basket_icon{
+    height: 40px;
+    padding-right: 30px;
+}
+.main{
+    margin: 2%;
+}
+.basket_window{
+    background-color: #ffffff;
+}
+.basket_window hr{
+    width: 100%;
+}
+.product{
+    font-size: 15px;
+}
+.gray_color{
+    color: rgb(145, 141, 141);
+}
+.receipt{
+    background-color: #ffffff;
+}
+.receipt hr{
+    width: 100%;
+}
+.receipt_text_div{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
+.product_text_div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.receipt button:hover{
+    background: #383838;
+}

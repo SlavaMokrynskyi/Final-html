@@ -1,0 +1,32 @@
+*{
+    font-family: 'Days';
+}
+body{
+    margin: 0;
+}
+.menu{
+    background-color: #111111;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+#main_icon{
+    height: 100px;
+    padding-left: 30px;
+}
+#basket_icon{
+    height: 40px;
+    padding-right: 30px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 65pc;
+}
+.main img{
+    width: 300px;
+}
